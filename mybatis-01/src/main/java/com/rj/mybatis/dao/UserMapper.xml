@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rj.mybatis.dao.UserMapper">
+<!--    查询所有用户-->
+    <select id="getUserList" resultType="com.rj.mybatis.pojo.User">
+        SELECT * FROM tb_user
+    </select>
+<!--根据id查询用户，resultType映射的实体类类型，parameterType传入的参数类型-->
+    <select id="getUserById" resultType="com.rj.mybatis.pojo.User" parameterType="int">
+        SELECT * FROM tb_user WHERE id=#{id}
+    </select>
+<!--    模糊查询-->
+    <select id="likeUser" resultType="com.rj.mybatis.pojo.User" parameterType="String">
+        SELECT * FROM tb_user WHERE uname LIKE concat("%",#{value},"%")
+    </select>
+<!--    通过万能的map来查询-->
+    <select id="mapUserSelect" resultType="com.rj.mybatis.pojo.User" parameterType="map">
+        select * from tb_user where id= #{userId} or upass=#{userPass}
+    </select>
+<!--    插入数据-->
+    <insert id="addUser"  parameterType="com.rj.mybatis.pojo.User">
+        insert into mybatis.tb_user(id,uname,upass) values(#{id},#{uname},#{upass})
+    </insert>
+<!--     删除用户根据id-->
+    <delete id="deleteUser" parameterType="int">
+        delete from mybatis.tb_user where id=#{id}
+    </delete>
+<!--    更新用户数据表-->
+    <update id="updateUser" parameterType="com.rj.mybatis.pojo.User">
+        update mybatis.tb_user set  uname=#{uname},upass=#{upass}  where id=#{id}
+    </update>
+
+
+</mapper>

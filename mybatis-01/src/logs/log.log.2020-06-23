@@ -1,0 +1,576 @@
+2020-06-23 09:24:37  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 09:24:37  [ main:41 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:24:37  [ main:42 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:24:37  [ main:43 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:24:37  [ main:43 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:25:54  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 09:25:54  [ main:34 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:25:54  [ main:35 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:25:54  [ main:36 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:25:54  [ main:36 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:25:55  [ main:168 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 09:25:56  [ main:1861 ] - [ DEBUG ]  Created connection 1748876332.
+2020-06-23 09:25:56  [ main:1861 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:25:56  [ main:1868 ] - [ DEBUG ]  ==>  Preparing: select * from tb_user 
+2020-06-23 09:25:56  [ main:1904 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 09:25:56  [ main:1949 ] - [ DEBUG ]  <==      Total: 5
+2020-06-23 09:25:56  [ main:1951 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:25:56  [ main:1952 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:25:56  [ main:1952 ] - [ DEBUG ]  Returned connection 1748876332 to pool.
+2020-06-23 09:27:10  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 09:27:10  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:27:10  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:27:10  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:27:10  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:27:10  [ main:134 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 09:27:12  [ main:1753 ] - [ DEBUG ]  Created connection 1748876332.
+2020-06-23 09:27:12  [ main:1754 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:27:12  [ main:1760 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 09:27:12  [ main:1793 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 09:27:12  [ main:1827 ] - [ DEBUG ]  <==      Total: 5
+2020-06-23 09:27:12  [ main:1830 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:27:12  [ main:1831 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@683dbc2c]
+2020-06-23 09:27:12  [ main:1831 ] - [ DEBUG ]  Returned connection 1748876332 to pool.
+2020-06-23 09:56:44  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 09:56:44  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:56:44  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:56:44  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:56:44  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:56:45  [ main:141 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 09:56:46  [ main:1721 ] - [ DEBUG ]  Created connection 2053591126.
+2020-06-23 09:56:46  [ main:1721 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:56:46  [ main:1729 ] - [ DEBUG ]  ==>  Preparing: update tb_user set uname=?,upass=? where id=?; 
+2020-06-23 09:56:46  [ main:1762 ] - [ DEBUG ]  ==> Parameters: 赵丽颖(String), 159357(String), 2(Integer)
+2020-06-23 09:56:46  [ main:1770 ] - [ DEBUG ]  <==    Updates: 1
+2020-06-23 09:56:46  [ main:1771 ] - [ DEBUG ]  成功修改1一个用户
+2020-06-23 09:56:46  [ main:1771 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:56:46  [ main:1776 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:56:46  [ main:1777 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:56:46  [ main:1777 ] - [ DEBUG ]  Returned connection 2053591126 to pool.
+2020-06-23 09:57:09  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 09:57:09  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:57:09  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:57:09  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:57:09  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 09:57:09  [ main:144 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 09:57:11  [ main:1731 ] - [ DEBUG ]  Created connection 2053591126.
+2020-06-23 09:57:11  [ main:1731 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:57:11  [ main:1738 ] - [ DEBUG ]  ==>  Preparing: delete from tb_user where id = ? 
+2020-06-23 09:57:11  [ main:1771 ] - [ DEBUG ]  ==> Parameters: 5(Integer)
+2020-06-23 09:57:11  [ main:1775 ] - [ DEBUG ]  <==    Updates: 1
+2020-06-23 09:57:11  [ main:1776 ] - [ DEBUG ]  成功删除1个用户
+2020-06-23 09:57:11  [ main:1776 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:57:11  [ main:1780 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:57:11  [ main:1781 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a675056]
+2020-06-23 09:57:11  [ main:1782 ] - [ DEBUG ]  Returned connection 2053591126 to pool.
+2020-06-23 10:47:08  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:47:08  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:47:08  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:47:08  [ main:33 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:47:08  [ main:33 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:47:09  [ main:150 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:47:10  [ main:1776 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 10:47:10  [ main:1776 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:47:10  [ main:1783 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:47:10  [ main:1815 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:47:10  [ main:1846 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:47:10  [ main:1848 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:47:10  [ main:1849 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:47:10  [ main:1850 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:47:10  [ main:1850 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 10:50:23  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:50:23  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:50:23  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:50:23  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:50:23  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:50:23  [ main:134 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:50:25  [ main:1698 ] - [ DEBUG ]  Created connection 681094281.
+2020-06-23 10:50:25  [ main:1698 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2898ac89]
+2020-06-23 10:50:25  [ main:1706 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:50:25  [ main:1739 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:50:25  [ main:1773 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:50:25  [ main:1776 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:50:25  [ main:1776 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2898ac89]
+2020-06-23 10:50:25  [ main:1777 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2898ac89]
+2020-06-23 10:50:25  [ main:1777 ] - [ DEBUG ]  Returned connection 681094281 to pool.
+2020-06-23 10:56:32  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:56:32  [ main:34 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:56:32  [ main:35 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:56:32  [ main:36 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:56:32  [ main:36 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:56:32  [ main:151 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:56:34  [ main:1752 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 10:56:34  [ main:1752 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:56:34  [ main:1760 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:56:34  [ main:1791 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:56:34  [ main:1822 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:56:34  [ main:1825 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:56:34  [ main:1825 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:56:34  [ main:1826 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:56:34  [ main:1827 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 10:57:10  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:57:10  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:10  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:10  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:10  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:10  [ main:135 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:57:34  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:57:34  [ main:37 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:34  [ main:37 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:34  [ main:38 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:34  [ main:38 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:34  [ main:166 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:57:56  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:57:56  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:56  [ main:28 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:56  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:56  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:57:56  [ main:132 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:57:57  [ main:1744 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 10:57:57  [ main:1744 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:57:57  [ main:1751 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:57:57  [ main:1788 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:57:57  [ main:1824 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:57:57  [ main:1826 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:57:57  [ main:1827 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:57:57  [ main:1827 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:57:57  [ main:1828 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 10:58:07  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:58:07  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:07  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:07  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:07  [ main:32 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:07  [ main:145 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:58:09  [ main:1733 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 10:58:09  [ main:1734 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:09  [ main:1740 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:58:09  [ main:1771 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:58:09  [ main:1804 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:58:09  [ main:1806 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:58:09  [ main:1807 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:09  [ main:1808 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:09  [ main:1808 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 10:58:27  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 10:58:27  [ main:29 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:27  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:27  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:27  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 10:58:27  [ main:136 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 10:58:29  [ main:1850 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 10:58:29  [ main:1851 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:29  [ main:1858 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 10:58:29  [ main:1898 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 10:58:29  [ main:1927 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 10:58:29  [ main:1929 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 10:58:29  [ main:1930 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:29  [ main:1931 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 10:58:29  [ main:1931 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 11:07:34  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:07:34  [ main:30 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:07:34  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:07:34  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:07:34  [ main:31 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:07:35  [ main:135 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:07:36  [ main:1760 ] - [ DEBUG ]  Created connection 1747352992.
+2020-06-23 11:07:36  [ main:1761 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 11:07:36  [ main:1768 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:07:36  [ main:1808 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:07:36  [ main:1844 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:07:36  [ main:1846 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:07:36  [ main:1847 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 11:07:36  [ main:1847 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68267da0]
+2020-06-23 11:07:36  [ main:1848 ] - [ DEBUG ]  Returned connection 1747352992 to pool.
+2020-06-23 11:11:32  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:11:32  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:11:32  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:11:32  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:11:32  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:11:32  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:11:32  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:11:32  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:11:32  [ main:57 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:11:32  [ main:58 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:11:32  [ main:59 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:11:32  [ main:59 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:11:32  [ main:61 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:11:32  [ main:62 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:11:32  [ main:112 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:11:32  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:11:32  [ main:115 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:11:32  [ main:115 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:11:32  [ main:216 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:11:34  [ main:1816 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:11:34  [ main:1816 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:11:34  [ main:1821 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:11:34  [ main:1850 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:11:34  [ main:1882 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:11:34  [ main:1884 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:11:34  [ main:1884 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:11:34  [ main:1885 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:11:34  [ main:1885 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:12:32  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:12:32  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:12:32  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:12:32  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:12:32  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:12:32  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:12:32  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:12:32  [ main:10 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:12:32  [ main:50 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:12:32  [ main:51 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:12:32  [ main:52 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:12:32  [ main:52 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:12:32  [ main:54 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:12:32  [ main:55 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:12:32  [ main:104 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:12:32  [ main:105 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:12:32  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:12:32  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:12:32  [ main:216 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:12:34  [ main:1853 ] - [ DEBUG ]  Created connection 1647766367.
+2020-06-23 11:12:34  [ main:1853 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:12:34  [ main:1858 ] - [ DEBUG ]  ==>  Preparing: update tb_user set uname=?,upass=? where id=?; 
+2020-06-23 11:12:34  [ main:1888 ] - [ DEBUG ]  ==> Parameters: 赵丽颖(String), 159357(String), 2(Integer)
+2020-06-23 11:12:34  [ main:1891 ] - [ DEBUG ]  <==    Updates: 1
+2020-06-23 11:12:34  [ main:1892 ] - [ DEBUG ]  成功修改1一个用户
+2020-06-23 11:12:34  [ main:1892 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:12:34  [ main:1893 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:12:34  [ main:1894 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:12:34  [ main:1895 ] - [ DEBUG ]  Returned connection 1647766367 to pool.
+2020-06-23 11:13:08  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:13:08  [ main:5 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:13:08  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:13:08  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:13:08  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:13:08  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:13:08  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:08  [ main:10 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:08  [ main:55 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:13:08  [ main:56 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:08  [ main:57 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:13:08  [ main:58 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:13:08  [ main:59 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:13:08  [ main:60 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:13:08  [ main:106 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:08  [ main:106 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:08  [ main:109 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:08  [ main:109 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:08  [ main:220 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:13:10  [ main:1814 ] - [ DEBUG ]  Created connection 1647766367.
+2020-06-23 11:13:10  [ main:1814 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:13:10  [ main:1819 ] - [ DEBUG ]  ==>  Preparing: update tb_user set uname=?,upass=? where id=?; 
+2020-06-23 11:13:10  [ main:1852 ] - [ DEBUG ]  ==> Parameters: 赵丽颖(String), 159357(String), 2(Integer)
+2020-06-23 11:13:10  [ main:1855 ] - [ DEBUG ]  <==    Updates: 1
+2020-06-23 11:13:10  [ main:1856 ] - [ DEBUG ]  成功修改1一个用户
+2020-06-23 11:13:10  [ main:1856 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:13:10  [ main:1858 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:13:10  [ main:1858 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6236eb5f]
+2020-06-23 11:13:10  [ main:1859 ] - [ DEBUG ]  Returned connection 1647766367 to pool.
+2020-06-23 11:13:14  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:13:14  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:13:14  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:13:14  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:13:14  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:13:14  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:13:14  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:14  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:14  [ main:55 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:13:14  [ main:56 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:13:14  [ main:57 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:13:14  [ main:58 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:13:14  [ main:60 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:13:14  [ main:61 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:13:14  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:14  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:14  [ main:112 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:14  [ main:112 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:13:14  [ main:207 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:13:16  [ main:1799 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:13:16  [ main:1799 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:13:16  [ main:1804 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:13:16  [ main:1839 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:13:16  [ main:1873 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:13:16  [ main:1876 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:13:16  [ main:1876 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:13:16  [ main:1877 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:13:16  [ main:1877 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:21:02  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:21:02  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:21:02  [ main:8 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:21:02  [ main:9 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:21:02  [ main:10 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:21:03  [ main:11 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:21:03  [ main:12 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:21:03  [ main:12 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:21:03  [ main:55 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:21:03  [ main:56 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:21:03  [ main:56 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:21:03  [ main:57 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:21:03  [ main:58 ] - [ DEBUG ]  Reader entry: ����   1 @
+2020-06-23 11:21:03  [ main:59 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:21:03  [ main:116 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:21:03  [ main:116 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:21:03  [ main:119 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:21:03  [ main:120 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:22:25  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:22:25  [ main:5 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:22:25  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:22:25  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:22:25  [ main:7 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:22:25  [ main:8 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:22:25  [ main:9 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:22:25  [ main:9 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:22:25  [ main:51 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:22:25  [ main:52 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:22:25  [ main:53 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:22:25  [ main:53 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:22:25  [ main:55 ] - [ DEBUG ]  Reader entry: ����   1 @
+2020-06-23 11:22:25  [ main:56 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:22:25  [ main:104 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:22:25  [ main:105 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:22:25  [ main:106 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:22:25  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:17  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:23:17  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:23:17  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:23:17  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:23:17  [ main:9 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:23:17  [ main:10 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:23:17  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:17  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:17  [ main:52 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:23:17  [ main:53 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:17  [ main:54 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:23:17  [ main:54 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:23:17  [ main:56 ] - [ DEBUG ]  Reader entry: ����   1 @
+2020-06-23 11:23:17  [ main:57 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:23:17  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:17  [ main:108 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:17  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:17  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:26  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:23:26  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:23:26  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:23:26  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:23:26  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:23:26  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:23:26  [ main:10 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:26  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:26  [ main:47 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:23:26  [ main:48 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:23:26  [ main:48 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:23:26  [ main:49 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:23:26  [ main:50 ] - [ DEBUG ]  Reader entry: ����   1 @
+2020-06-23 11:23:26  [ main:51 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:23:26  [ main:98 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:26  [ main:98 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:26  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:23:26  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:24:10  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:24:10  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:24:10  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:24:10  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:24:10  [ main:9 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:24:10  [ main:10 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:24:10  [ main:11 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:24:10  [ main:12 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:24:10  [ main:54 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:24:10  [ main:55 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:24:10  [ main:56 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:24:10  [ main:56 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:24:10  [ main:57 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:24:10  [ main:58 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:24:10  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:24:10  [ main:107 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:24:10  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:24:10  [ main:110 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:24:10  [ main:204 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:24:12  [ main:1854 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:24:12  [ main:1855 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:24:12  [ main:1860 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:24:12  [ main:1890 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:24:12  [ main:1925 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:24:12  [ main:1927 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:24:12  [ main:1927 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:24:12  [ main:1928 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:24:12  [ main:1929 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:25:20  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:25:20  [ main:5 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:25:20  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:25:20  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:25:20  [ main:7 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:25:20  [ main:8 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:25:20  [ main:9 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:25:20  [ main:10 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:25:20  [ main:49 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:25:20  [ main:50 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:25:20  [ main:51 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:25:20  [ main:52 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:25:20  [ main:53 ] - [ DEBUG ]  Reader entry: ����   1 @
+2020-06-23 11:25:20  [ main:55 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:25:20  [ main:103 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:25:20  [ main:103 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:25:20  [ main:105 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:25:20  [ main:106 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:25:20  [ main:204 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:25:22  [ main:1853 ] - [ DEBUG ]  Created connection 726379593.
+2020-06-23 11:25:22  [ main:1854 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b4bac49]
+2020-06-23 11:25:22  [ main:1860 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:25:22  [ main:1894 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:25:22  [ main:1925 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:25:22  [ main:1928 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:25:22  [ main:1929 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b4bac49]
+2020-06-23 11:25:22  [ main:1930 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b4bac49]
+2020-06-23 11:25:22  [ main:1930 ] - [ DEBUG ]  Returned connection 726379593 to pool.
+2020-06-23 11:26:48  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:26:48  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:26:48  [ main:8 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:26:48  [ main:9 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:26:48  [ main:11 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:26:48  [ main:12 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:26:48  [ main:13 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:26:48  [ main:13 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:26:48  [ main:56 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:26:48  [ main:57 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:26:48  [ main:57 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:26:48  [ main:57 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:26:48  [ main:59 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:26:48  [ main:60 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:26:48  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:26:48  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:26:48  [ main:115 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:26:48  [ main:115 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:26:48  [ main:214 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:26:50  [ main:1822 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:26:50  [ main:1822 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:26:50  [ main:1828 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:26:50  [ main:1859 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:26:50  [ main:1888 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:26:50  [ main:1890 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:26:50  [ main:1891 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:26:50  [ main:1891 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:26:50  [ main:1892 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:50:03  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:50:03  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:50:03  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:50:03  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:50:03  [ main:9 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:50:03  [ main:10 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:50:03  [ main:11 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:50:03  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:50:03  [ main:49 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:50:03  [ main:51 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:50:03  [ main:51 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:50:03  [ main:51 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:50:03  [ main:52 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:50:03  [ main:53 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:50:03  [ main:99 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:50:03  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:50:03  [ main:102 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:50:03  [ main:102 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:50:03  [ main:203 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:50:05  [ main:1781 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:50:05  [ main:1782 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:50:05  [ main:1787 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:50:05  [ main:1819 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:50:05  [ main:1853 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:50:05  [ main:1855 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:50:05  [ main:1856 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:50:05  [ main:1857 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:50:05  [ main:1858 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:54:11  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:54:11  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:54:11  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:54:11  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:54:11  [ main:9 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:54:11  [ main:10 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:54:11  [ main:11 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:54:11  [ main:11 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:54:11  [ main:56 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:54:11  [ main:57 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:54:11  [ main:58 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:54:11  [ main:58 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:54:11  [ main:59 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:54:11  [ main:61 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:54:11  [ main:116 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:54:11  [ main:117 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:54:11  [ main:119 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:54:11  [ main:120 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:54:11  [ main:125 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao
+2020-06-23 11:54:11  [ main:126 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao
+2020-06-23 11:54:11  [ main:130 ] - [ DEBUG ]  Reader entry: UserMapper.class
+2020-06-23 11:54:11  [ main:131 ] - [ DEBUG ]  Reader entry: UserMapper.xml
+2020-06-23 11:54:11  [ main:132 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao
+2020-06-23 11:54:11  [ main:132 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao/UserMapper.class
+2020-06-23 11:54:11  [ main:133 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao/UserMapper.class
+2020-06-23 11:54:11  [ main:134 ] - [ DEBUG ]  Reader entry: ����   1    allUser ()Ljava/util/List; 	Signature .()Ljava/util/List<Lcom/rj/mybatis/pojo/User;>; addUser (Lcom/rj/mybatis/pojo/User;)I 
+2020-06-23 11:54:11  [ main:135 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao/UserMapper.xml
+2020-06-23 11:54:11  [ main:135 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/dao/UserMapper.xml
+2020-06-23 11:54:11  [ main:136 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-06-23 11:54:11  [ main:137 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.dao.UserMapper matches criteria [is assignable to Object]
+2020-06-23 11:54:12  [ main:264 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:54:13  [ main:1931 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:54:13  [ main:1931 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:54:13  [ main:1937 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:54:13  [ main:1969 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:54:13  [ main:2001 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:54:13  [ main:2004 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:54:13  [ main:2004 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:54:13  [ main:2005 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:54:13  [ main:2005 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 11:56:04  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 11:56:04  [ main:10 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 11:56:04  [ main:10 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 11:56:04  [ main:11 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 11:56:04  [ main:12 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 11:56:04  [ main:14 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 11:56:04  [ main:15 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:56:04  [ main:16 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:56:04  [ main:78 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 11:56:04  [ main:81 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo
+2020-06-23 11:56:04  [ main:82 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:56:04  [ main:83 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-02/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 11:56:04  [ main:85 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 11:56:04  [ main:86 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 11:56:04  [ main:161 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:56:04  [ main:162 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:56:04  [ main:165 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:56:04  [ main:165 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 11:56:04  [ main:344 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 11:56:06  [ main:2474 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 11:56:06  [ main:2475 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:56:06  [ main:2482 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 11:56:07  [ main:2523 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 11:56:07  [ main:2560 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 11:56:07  [ main:2563 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 11:56:07  [ main:2564 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:56:07  [ main:2565 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 11:56:07  [ main:2565 ] - [ DEBUG ]  Returned connection 848363848 to pool.
+2020-06-23 12:16:25  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-23 12:16:25  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2020-06-23 12:16:25  [ main:9 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2020-06-23 12:16:25  [ main:10 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2020-06-23 12:16:25  [ main:11 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-06-23 12:16:25  [ main:12 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-06-23 12:16:25  [ main:13 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-03/target/classes/com/rj/mybatis/pojo
+2020-06-23 12:16:25  [ main:14 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-03/target/classes/com/rj/mybatis/pojo
+2020-06-23 12:16:25  [ main:55 ] - [ DEBUG ]  Reader entry: User.class
+2020-06-23 12:16:25  [ main:56 ] - [ DEBUG ]  Listing file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-03/target/classes/com/rj/mybatis/pojo
+2020-06-23 12:16:25  [ main:56 ] - [ DEBUG ]  Find JAR URL: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-03/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 12:16:25  [ main:57 ] - [ DEBUG ]  Not a JAR: file:/E:/JAVA/MyBatisPro/Mybatis1/mybatis-03/target/classes/com/rj/mybatis/pojo/User.class
+2020-06-23 12:16:25  [ main:59 ] - [ DEBUG ]  Reader entry: ����   1 <
+2020-06-23 12:16:25  [ main:60 ] - [ DEBUG ]  Checking to see if class com.rj.mybatis.pojo.User matches criteria [is assignable to Object]
+2020-06-23 12:16:25  [ main:111 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 12:16:25  [ main:111 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 12:16:25  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 12:16:25  [ main:114 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-06-23 12:16:25  [ main:216 ] - [ DEBUG ]  Opening JDBC Connection
+2020-06-23 12:16:26  [ main:1843 ] - [ DEBUG ]  Created connection 848363848.
+2020-06-23 12:16:26  [ main:1843 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 12:16:26  [ main:1849 ] - [ DEBUG ]  ==>  Preparing: select id id,uname userName,upass userPass from tb_user 
+2020-06-23 12:16:26  [ main:1884 ] - [ DEBUG ]  ==> Parameters: 
+2020-06-23 12:16:26  [ main:1927 ] - [ DEBUG ]  <==      Total: 4
+2020-06-23 12:16:26  [ main:1931 ] - [ DEBUG ]  成功获取到数据
+2020-06-23 12:16:26  [ main:1931 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 12:16:26  [ main:1933 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@32910148]
+2020-06-23 12:16:26  [ main:1933 ] - [ DEBUG ]  Returned connection 848363848 to pool.
