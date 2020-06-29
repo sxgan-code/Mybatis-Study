@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    引入外部配置文件-->
+    <properties resource="db.properties"></properties>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+<!--    起别名-->
+    <typeAliases>
+        <package name="com.rj.mybatis.pojo"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <!--transactionManager事务管理，默认使用jdbc的事务管理-->
+            <transactionManager type="JDBC"/>
+            <!--dataSource数据源-->
+            <dataSource type="POOLED">
+                <!--配置的属性，此处为数据库的jdbc配置-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="com/rj/mybatis/dao/UserMapper.xml"></mapper>
+<!--        <mapper class="com.rj.mybatis.dao.UserMapper"></mapper>-->
+<!--        <package name="com.rj.mybatis.dao"/>-->
+    </mappers>
+    
+</configuration>

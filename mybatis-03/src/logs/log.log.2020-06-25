@@ -1,0 +1,12 @@
+2020-06-25 10:07:20  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 10:07:22  [ main:2054 ] - [ DEBUG ]  成功获取到数据
+2020-06-25 12:04:24  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:04:26  [ main:1904 ] - [ DEBUG ]  成功获取到数据
+2020-06-25 12:05:03  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:05:05  [ main:1827 ] - [ DEBUG ]  成功插入1数据
+2020-06-25 12:05:30  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:05:32  [ main:1892 ] - [ DEBUG ]  成功删除1个用户
+2020-06-25 12:06:08  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:07:59  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:08:43  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-06-25 12:08:45  [ main:1790 ] - [ DEBUG ]  成功修改1一个用户
