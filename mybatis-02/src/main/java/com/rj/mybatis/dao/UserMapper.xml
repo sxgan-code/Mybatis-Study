@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rj.mybatis.dao.UserMapper">
+<!--    查询所有用户-->
+    <select id="allUser" resultType="user">
+        select id id,uname userName,upass userPass from  tb_user
+    </select>
+<!--    增加-->
+    <insert id="addUser" parameterType="user">
+        insert into tb_user values(#{id},#{userName},#{userPass});
+    </insert>
+<!--     删除-->
+    <delete id="deleteUser" parameterType="int" >
+        delete from tb_user where id = #{id}
+    </delete>
+<!--    修改-->
+    <update id="updateUser" parameterType="user">
+        update tb_user set uname=#{userName},upass=#{userPass}  where  id=#{id};
+    </update>
+</mapper>
